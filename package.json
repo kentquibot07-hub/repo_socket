@@ -1,5 +1,5 @@
 {
-  "name": "brewery-socketio",
+  "name": "grooming-socketio",
   "version": "1.0.0",
   "description": "Socket.io service for real-time order updates",
   "main": "server.js",
