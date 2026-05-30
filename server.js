@@ -8,7 +8,9 @@ const io = socketIo(server, {
   cors: {
     origin: "*",
     methods: ["GET", "POST"]
-  }
+  },
+  transports: ['websocket', 'polling'],
+  allowUpgrades: true
 });
 
 const PORT = process.env.PORT || 8080;
